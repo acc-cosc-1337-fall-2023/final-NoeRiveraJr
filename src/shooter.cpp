@@ -13,7 +13,7 @@ std::ostream& operator<<(std::ostream& os, const Shooter& shooter)
 {
     for(const auto& roll : shooter.rolls)
     {
-        os <<"Rolled Value: "<<roll->roll_value()<<"\n"<<std::endl;
+        os <<roll->roll_value()<<std::endl;
     }
 }
 

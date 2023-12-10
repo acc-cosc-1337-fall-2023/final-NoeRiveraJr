@@ -12,6 +12,6 @@ class Die
         int rolled_value() const {return roll_value;}
     private:
         int roll_value;
-        std::vector<int> sides = {1,2,3,4,5,6};
+        int sides = 6;
 };
 #endif

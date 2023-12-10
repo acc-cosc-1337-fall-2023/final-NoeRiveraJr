@@ -4,6 +4,5 @@
 
 void Die::roll()
 {
-    int dieIndex = (rand()%6);
-    roll_value = sides[dieIndex];
+    roll_value = 1 + (rand()%6);
 }
