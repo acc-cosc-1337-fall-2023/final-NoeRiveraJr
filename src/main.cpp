@@ -23,6 +23,7 @@ int main()
 
 	cout<<"Rolled "<<roll->roll_value()<<" start of point phase\n";
 	cout<<"Roll until "<<roll->roll_value()<<" or a 7 is rolled again\n";
+	
 	int point = roll->roll_value();
 	roll = shooter.throw_die(die1,die2);
 	PointPhase point_phase(point);
